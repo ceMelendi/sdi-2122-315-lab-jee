@@ -32,8 +32,10 @@ public class ServletShoppingCart extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<HTML>");
         out.println("<HEAD><TITLE>Tienda SDI: Cesta de la compra</TITLE></HEAD>");
-        out.println("<BODY>"); out.println(shoppingCartToHtml(cart) + "<br>");
-        out.println("<a href=\"shop.html\">Volver</a></BODY></HTML>");
+        out.println("<BODY>");
+        out.println(shoppingCartToHtml(cart) + "<br>");
+        //out.println("<a href=\"shop.html\">Volver</a></BODY></HTML>");
+        out.println("<a href=\"index.jsp\">Volver</a></BODY></HTML>");
     }
 
     private String shoppingCartToHtml(HashMap<String, Integer> cart) {

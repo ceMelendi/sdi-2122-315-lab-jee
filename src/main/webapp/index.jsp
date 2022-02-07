@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="utf-8"%>
+
 <html lang="en">
 <head>
     <title>Servlets</title>
@@ -8,8 +9,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
+<!-- Contenido -->
 <div class="container" id="main-container">
     <h2>Productos</h2>
     <div class="row ">
@@ -18,7 +21,7 @@
                 <img src="images/iconfinder_apple.png"/>
                 <div>Manzanas</div>
                 <a href="AddToShoppingCart?product=apple" class="btn btn-default">
-                    2.05 €
+                    2.05€
                 </a>
             </div>
         </div>
@@ -53,4 +56,5 @@
 </div>
 
 </body>
+
 </html>
